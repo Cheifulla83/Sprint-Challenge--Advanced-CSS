@@ -1,1 +1,20 @@
 // Mixins Here
+.nav-class-font {
+    font-family: @nav-font;
+
+}
+.nav-class-bg {
+    background-color: @nav-bg;
+}
+
+.btn-color (@text-color, @hover-text-color) {
+    padding: 10px;
+    border-radius:10px;
+    background-color: darken(@text-color, 20%);
+    color: @text-color;
+
+    &:hover {
+        background-color: darken(@hover-text-color, 20%);
+        color: @hover-text-color;
+    }
+}

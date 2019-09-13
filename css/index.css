@@ -1,3 +1,9 @@
+.nav-class-font {
+  font-family: #454A59;
+}
+.nav-class-bg {
+  background-color: #F6F6F6;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -211,6 +217,16 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #000000;
+  color: #23293B;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #181a20;
+  color: #454A59;
 }
 .home .walk .walk-img {
   width: 46%;
