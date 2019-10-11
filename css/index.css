@@ -176,13 +176,23 @@ p {
   font-size: 3.2rem;
 }
 .navigation nav {
+  margin: 20px;
+  width: 70%;
   padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 500px) {
+  .navigation nav {
+    justify-content: space-between;
+    width: 100%;
+  }
 }
 .navigation nav a {
   font-family: #454A59;
   background-color: #F6F6F6;
   text-decoration: none;
-  padding: 15px;
+  padding: 6px;
 }
 footer {
   color: #22283B;
@@ -262,13 +272,16 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn {
+.home .walk .walk-text button {
+  width: 200px;
+  margin: 0;
   padding: 10px;
   border-radius: 10px;
-  background-color: #000000;
-  color: #23293B;
+  background-color: #c3c3c3;
+  color: #F6F6F6;
+  font-size: 1.3rem;
 }
-.home .walk .walk-text .btn:hover {
+.home .walk .walk-text button:hover {
   background-color: #181a20;
   color: #454A59;
 }

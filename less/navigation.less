@@ -8,12 +8,20 @@
     font-size: 3.2rem;
     }
     nav {
+        margin: 20px;
+        width: 70%;
         padding: 15px;
+        display: flex;
+        justify-content: space-around;
+        @media @mobile {
+            justify-content: space-between;
+            width: 100%;
+        }
         a {
         .nav-class-font();
         .nav-class-bg();
         text-decoration: none;
-        padding: 15px;
+        padding: 6px;
         }   
     }
 
